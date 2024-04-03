@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JPanel.java to edit this template
- */
+
 package Category;
 
 import Controller.AddCategories;
@@ -41,7 +38,7 @@ import model.CategoryModel;
 public class AddCategory extends javax.swing.JPanel {
 
     private JPanel imagePanel;
-   
+   ///
 
     public AddCategory() {
         initComponents();

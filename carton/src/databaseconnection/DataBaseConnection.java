@@ -10,7 +10,7 @@ package databaseconnection;
  */
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.sql.DriverManager;
+
 
 
 public class DataBaseConnection {
@@ -29,6 +29,13 @@ public class DataBaseConnection {
         
     }
     public void ConnectToDatabase() throws  SQLException, ClassNotFoundException{
+//        String server = "127.0.0.1";
+//        String port = "3306";
+//        String database ="carton";
+//        String user = "root";
+//        String password = "hyacenth23ortega";
+//        Class.forName("com.mysql.cj.jdbc.Driver");
+//        connection = (Connection) java.sql.DriverManager.getConnection("jdbc:mysql://"+server+":"+port+"/"+database,user,password);
         String server = "127.0.0.1";
         String port = "3306";
         String database ="carton_inventory_management_data";
@@ -36,6 +43,7 @@ public class DataBaseConnection {
         String password = "ayaortega";
         Class.forName("com.mysql.cj.jdbc.Driver");
         connection = (Connection) java.sql.DriverManager.getConnection("jdbc:mysql://"+server+":"+port+"/"+database,user,password);
+
     }
     public Connection getConnection() {
         return connection;

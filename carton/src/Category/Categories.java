@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JPanel.java to edit this template
- */
 package Category;
 
 import Controller.RemoveCategories;
@@ -18,7 +14,6 @@ import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
 import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
 import java.sql.PreparedStatement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -35,10 +30,6 @@ import javax.swing.Timer;
 import model.CategoryModel;
 import raven.glasspanepopup.GlassPanePopup;
 
-/**
- *
- * @author home
- */
 public class Categories extends javax.swing.JPanel {
 
    private AddCategory addCat;
@@ -139,6 +130,10 @@ public class Categories extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         remove = new javax.swing.JButton();
         add = new javax.swing.JButton();
+
+        setBackground(new java.awt.Color(255, 255, 255));
+
+        imagePanel.setBackground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout imagePanelLayout = new javax.swing.GroupLayout(imagePanel);
         imagePanel.setLayout(imagePanelLayout);
